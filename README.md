@@ -77,9 +77,9 @@ This command will:
 ### Step 3: Access the Services
 Once the services are up and running, you can access them through the NGINX reverse proxy.
 
-Order Service: http://localhost/orders
-User Service: http://localhost/users
-Product Service: http://localhost/products
+- Order Service: http://localhost/orders
+- User Service: http://localhost/users
+- Product Service: http://localhost/products
 
 Make sure to replace localhost with your Docker host if you're not running it locally.
 
