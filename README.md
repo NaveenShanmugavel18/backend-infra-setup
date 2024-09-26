@@ -87,7 +87,7 @@ Make sure to replace localhost with your Docker host if you're not running it lo
 To stop the running services, use:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Step 5: Database Setup
@@ -101,7 +101,7 @@ You can customize the services and their configurations in their respective `Doc
 - Check Docker logs for any issues with service startup:
 
 ```bash
-docker-compose logs
+docker compose logs
 ```
 
 - Verify that the ports specified in the docker-compose.yml file are not being used by other applications.
